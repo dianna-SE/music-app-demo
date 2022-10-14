@@ -148,15 +148,20 @@ export default function Searchpage() {
 # Pages
 
 ## Feature 1 - UI Design
-
+<p align="center">
 <img width="419" alt="Screen Shot 2022-10-13 at 3 12 09 PM" src="https://user-images.githubusercontent.com/97206862/195720521-530d1898-e972-4fd8-afbe-64c29b2082df.png">
+</p>
 
 
 ## Feature 2 - Search Function
+<p align="center">
 <img width="404" alt="Screen Shot 2022-10-13 at 3 12 38 PM" src="https://user-images.githubusercontent.com/97206862/195720531-4f0129b6-4096-493e-8379-085e3370c08b.png">
+</p>
 
 ## Feature 3 - Project Demonstration
+<p align="center">
 https://user-images.githubusercontent.com/97206862/195823730-e719c3c7-302d-442f-b394-874fc3c25fd1.MOV
+</p>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
