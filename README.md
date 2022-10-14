@@ -1,7 +1,7 @@
 # MUSE | Music Player Application
 
 ## *Important Notice*
-This is a demonstration repository as the original repository is private due to vulnerable access to authorization keys and for security concerns). If you would like to see the full repository, contact me at diannapham.se@gmail.com and I will provide an invitation link to the repository.
+This is a demonstration repository as the original repository is set as private due to vulnerable access to authorization keys and for security concerns. If you would like to see the full repository, contact me at diannapham.se@gmail.com and I will provide an invitation link to the repository.
 
 <!-- PROJECT LOGO -->
 <br />
