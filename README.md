@@ -176,11 +176,7 @@ https://user-images.githubusercontent.com/97206862/195823730-e719c3c7-302d-442f-
 
 ### Installation
 To retrieve and inspect the source code,
-1. Clone the repo to your IDE
-   ```sh
-   git clone git@github.com:dianna-SE/music-app.git
-   ```
-2. Must have dependencies and frameworks installed:
+1. Must have dependencies and frameworks installed:
 - [ ]  React
 - [ ]  SASS
 - [ ]  Bootstrap
