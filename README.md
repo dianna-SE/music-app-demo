@@ -1,5 +1,7 @@
 # MUSE | Music Player Application
 
+#This is a demonstration repository as the original repository is private due to vulnerable access to authorization keys and for security concerns). If you would like to see the full repository, contact me at diannapham.se@gmail.com and I will provide an invitation link to the repository.
+
 <!-- PROJECT LOGO -->
 <br />
 MUSE - music player application that lets users play 30 second previews of their favorite songs using Spotify API integration. Search for your favorite artists, tracks, or albums.
@@ -10,6 +12,9 @@ MUSE - music player application that lets users play 30 second previews of their
 • Integrated Spotify API using callbacks and asynchronous operations which reduced response time by 30% and improved application performance and responsiveness.
 
 • Implemented data structures and algorithms which increased efficiency and reliability in data storage and retrieval. 
+
+
+# Code Sample
 
 <!-- PAGES -->
 # Pages
