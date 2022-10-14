@@ -1,11 +1,11 @@
 # MUSE | Music Player Application
+MUSE - music player application that lets users play 30 second previews of their favorite songs using Spotify API integration. Search for your favorite artists, tracks, or albums.
 
 ## *Important Notice*
 This is a demonstration repository as the original repository is set as private due to vulnerable access to authorization keys and for security concerns. If you would like to see the full repository, contact me at diannapham.se@gmail.com and I will provide an invitation link to the repository.
 
 <!-- PROJECT LOGO -->
 <br />
-MUSE - music player application that lets users play 30 second previews of their favorite songs using Spotify API integration. Search for your favorite artists, tracks, or albums.
 
 ## Project Responsibilities
 • Built a website application using front-end architecture to design the web page layout for consistent UI and React through a virtual DOM which enhanced rendering and component reusability by 60%.
