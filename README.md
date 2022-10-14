@@ -2,7 +2,7 @@
 MUSE - music player application that lets users play 30 second previews of their favorite songs using Spotify API integration. Search for your favorite artists, tracks, or albums.
 
 ## *Important Notice*
-This is a demonstration repository as the original repository is set as private due to vulnerable access to authorization keys and for security concerns. If you would like to see the full repository, contact me at diannapham.se@gmail.com and I will provide an invitation link to the repository.
+This is a demonstration repository as the original repository is set to private due to vulnerable access to authorization keys and for security concerns. If you would like more information for this project, contact me at diannapham.se@gmail.com.
 
 <!-- PROJECT LOGO -->
 <br />
