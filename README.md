@@ -15,7 +15,7 @@ This is a demonstration repository as the original repository is set as private 
 • Implemented data structures and algorithms which increased efficiency and reliability in data storage and retrieval. 
 
 
-# Code Sample
+# Code Sample 
 ```
 export default function Searchpage() {
   const [imgSrc, setImgSrc] = useState("Invalid Image Source");
@@ -53,13 +53,6 @@ export default function Searchpage() {
           }
       }
 
-      //Artist ID to retrieve album data
-      var artistID = await fetch('https://api.spotify.com/v1/search?q=' + searchInput + '&type=artist', searchParameters)
-          .then(response => response.json())
-          .then(data => { return data.artists.items[0].id })
-
-      console.log("Artist ID is " + artistID);
-
       //Track ID used to retrieve several tracks
       const arrTracks = []; //Store IDs into an array
       for (let i = 1; i < 20; i++) {
@@ -80,42 +73,6 @@ export default function Searchpage() {
             console.log(data);
             setTracks(data.tracks);
       });
-      
-      //Get album request using Artist ID
-      var severalAlbums = await fetch('https://api.spotify.com/v1/artists/' + artistID + '/albums' + '?include_groups=album&market=US&limit=50', searchParameters)
-          .then(response => response.json())
-          .then(data => {
-              console.log(data); 
-              setAlbums(data.items);
-      });
-
-      //Gets track image request using Track ID
-      var trackURL = await fetch('https://api.spotify.com/v1/tracks/' + trackID + '?market=US', searchParameters)
-          .then(response => response.json())
-          .then(data => { 
-              display_image(data.album.images[0].url);
-          });
-
-      //Gets track name
-      var trackName = await fetch('https://api.spotify.com/v1/tracks/' + trackID + '?market=US', searchParameters)
-          .then(response => response.json())
-          .then(data => {return data.name});
-          document.getElementById("track-name").innerHTML = trackName;
-       console.log("Track name is " + trackName);
-
-      //Gets artist name
-      var artistName = await fetch('https://api.spotify.com/v1/tracks/' + trackID + '?market=US', searchParameters)
-          .then(response => response.json())
-          .then(data => {
-              return data.artists[0].name;
-          });
-       document.getElementById("artist-name").innerHTML = artistName;
-       console.log("Artist name is " + artistName);
-
-      //Retrieves track image to display within DOCUMENT
-      function display_image(image_url) {
-          document.getElementById("track-image").src = image_url; 
-      }
   }
 
   return (
@@ -154,7 +111,6 @@ export default function Searchpage() {
               <div>top streams</div>
           </div>
         </div>
-        {/*<i class="fa-solid fa-play search-icon"></i>*/}
       </div>
 
       <div class="songs">
