@@ -16,6 +16,7 @@ This is a demonstration repository as the original repository is set as private 
 
 
 # Code Sample
+```
 export default function Searchpage() {
   const [imgSrc, setImgSrc] = useState("Invalid Image Source");
   const [searchInput, setSearchInput] = useState("");
@@ -183,7 +184,7 @@ export default function Searchpage() {
     </>
   )
 }
-
+```
 
 
 
