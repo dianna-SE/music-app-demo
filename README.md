@@ -7,14 +7,6 @@ This is a demonstration repository as the original repository is set as private 
 <!-- PROJECT LOGO -->
 <br />
 
-## Project Responsibilities
-• Built a website application using front-end architecture to design the web page layout for consistent UI and React through a virtual DOM which enhanced rendering and component reusability by 60%.
-
-• Integrated Spotify API using callbacks and asynchronous operations which reduced response time by 30% and improved application performance and responsiveness.
-
-• Implemented data structures and algorithms which increased efficiency and reliability in data storage and retrieval. 
-
-
 # Code Sample 
 ```
 export default function Searchpage() {
@@ -141,6 +133,14 @@ export default function Searchpage() {
   )
 }
 ```
+
+## Project Responsibilities
+• Built a website application using front-end architecture to design the web page layout for consistent UI and React through a virtual DOM which enhanced rendering and component reusability by 60%.
+
+• Integrated Spotify API using callbacks and asynchronous operations which reduced response time by 30% and improved application performance and responsiveness.
+
+• Implemented data structures and algorithms which increased efficiency and reliability in data storage and retrieval. 
+
 
 
 
